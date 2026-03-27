@@ -4,38 +4,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 <title>Luna</title>
-<meta name="description" content="Luna — Your cycle, tracked">
+<meta name="description" content="Track your cycle, understand your body">
 <meta name="theme-color" content="#120810">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Luna">
-<link rel="manifest" href="manifest.json">
-<!-- Inline manifest for single-file deployment -->
-<script>
-// Inject manifest dynamically so the single HTML file works as a PWA
-(function(){
-  const manifest = {
-    name: "Luna – Cycle Tracker",
-    short_name: "Luna",
-    description: "Your cycle, tracked with care",
-    start_url: "./",
-    display: "standalone",
-    background_color: "#120810",
-    theme_color: "#120810",
-    orientation: "portrait",
-    icons: [
-      { src: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect width='192' height='192' rx='40' fill='%231c0d16'/><text y='130' x='30' font-size='120'>🌙</text></svg>", sizes: "192x192", type: "image/svg+xml" },
-      { src: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' rx='100' fill='%231c0d16'/><text y='360' x='60' font-size='320'>🌙</text></svg>", sizes: "512x512", type: "image/svg+xml" }
-    ]
-  };
-  const blob = new Blob([JSON.stringify(manifest)], {type: 'application/json'});
-  const url = URL.createObjectURL(blob);
-  const link = document.createElement('link');
-  link.rel = 'manifest'; link.href = url;
-  document.head.appendChild(link);
-})();
-</script>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" type="image/png" href="/icon.png">
+<link rel="apple-touch-icon" href="/icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
 <style>
