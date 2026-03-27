@@ -4,8 +4,8 @@
     "description" : "Track your cycle, undersstand your body",
     "start_url" : "/",
     "display" : "standalone",
-    "background_color" : "#ffffff",
-    "theme_color" : "#008080",
+    "background_color" : "#120810",
+    "theme_color" : "#120810",
     "icons" : [
         {
             "src" : "icon.png",
