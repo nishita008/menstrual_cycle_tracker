@@ -1,0 +1,17 @@
+{
+    "name" : "Luna Menstrual Cycle Tracker",
+    "short_name" : "Luna",
+    "description" : "Track your cycle, undersstand your body",
+    "start_url" : "/",
+    "display" : "standalone",
+    "background_color" : "#ffffff",
+    "theme_color" : "#008080",
+    "icons" : [
+        {
+            "src" : "icon.png",
+            "sizes" : "512x512",
+            "type" : "image/png",
+            "purpose" : "any maskable"
+        }
+    ]
+}
